@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Talk - OOCSS</title>
+  <style>
+
+      body {
+        font-family: Georgia, Helvetica, sans-serif;
+        font-size: 15px/18px;
+      }
+
+      .pull-left {
+        float: left;
+      }
+      .pull-right {
+        float: right;
+      }
+      
+      /* boxs */
+      .box {
+        padding: 10px 20px;
+        margin: 0 30px 10px 0;
+        border: 1px solid #c9c9c9;
+      }
+
+      .box > p {
+        line-height: 25px;
+      }
+
+      .box-size01 {
+        width: 200px;
+      }
+      .box-size02 {
+        width: 300px;
+      }
+      .box-size03 {
+        width: 500px;
+      }
+
+
+      /* buttons */
+
+      .btn {
+        display: block;
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .btn-small {
+        width: 100px;
+      }
+      .btn-medium {
+        width: 150px;
+      }
+      .btn-large {
+        width: 250px;
+      }
+
+      .btn-alert {
+        color: #fff;
+        background: #ef1515;
+      }
+
+      .btn-alert:hover {
+        background: #ff0000;
+      }
+
+      .btn-success {
+        color: #fff;
+        background: #1dba1d;
+      }
+
+      .btn-success:hover {
+        background: #077507;
+      }
+
+      .btn-normal {
+        background: #000;
+        color: #fff;
+      }
+      .btn-normal:hover {
+        background: #c9c9c9;
+      }
+
+
+      /* title */
+
+      .title  {
+        margin: 0 0 10px;
+        line-height: 30px;
+        font-size: 1.45em;
+      }
+      
+      .title-color01 {
+        color: #3498db;
+      }
+      .title-color02 {
+        color: #000;
+      }
+
+      .title-color03 {
+        color: #ea8220;
+      }
+
+
+      /* overrides */
+      .box-alpha {
+        margin-right: 0;
+      }
+      .box-omega {
+        margin-left: 0;
+      }
+      
+
+  </style>
+</head>
+<body>
+<div class="pull-right box box-size01">
+  <h2 class="title title-color01">Lorem ipsum dolor sit amet, consectetur adipisicing el.</h2>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus consectetur sapiente delectus fuga repellendus obcaecati ea non porro perspiciatis tenetur necessitatibus esse error ab ipsum perferendis numquam mollitia quisquam.
+  </p>
+  <a href="#" class="btn btn-medium btn-alert">Click Me</a>
+</div>
+<div class="pull-left box box-size02">
+  <h2 class="title title-color02">Lorem ipsum dolor sit amet, consectetur adipisicing el.</h2>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus consectetur sapiente delectus fuga repellendus obcaecati ea non porro perspiciatis tenetur necessitatibus esse error ab ipsum perferendis numquam mollitia quisquam.
+  </p>
+  <a href="#" class="btn btn-large btn-success">Click Me</a>
+</div>
+
+<div class="pull-right box box-size01">
+  <h2 class="title title-color03">Lorem ipsum dolor sit amet, consectetur adipisicing el.</h2>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus consectetur sapiente delectus fuga repellendus obcaecati ea non porro perspiciatis tenetur necessitatibus esse error ab ipsum perferendis numquam mollitia quisquam.
+  </p>
+  <a href="#" class="btn btn-small btn-normal">Click Me</a>
+</div>
+</body>
+</html>
